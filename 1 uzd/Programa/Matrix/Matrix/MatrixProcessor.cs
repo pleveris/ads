@@ -38,6 +38,8 @@ namespace Matrix
                 }
             }
 
+            negativeNums.Sort();
+
             return negativeNums;
         }
 
@@ -45,7 +47,7 @@ namespace Matrix
         {
             var matrixCount = matrix.Count;
 
-            if (matrixCount <= 2)
+            if (matrixCount < 2)
             {
                 return false;
             }
