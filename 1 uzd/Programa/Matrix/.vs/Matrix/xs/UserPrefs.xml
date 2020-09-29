@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{380BA3BE-36A0-4E70-AB38-01FF298F7797}|Default">
+  <MonoDevelop.Ide.ItemProperties.Matrix PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Matrix.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Matrix.Tests/UnitTest1.cs">
+    <Files>
+      <File FileName="Matrix/MatrixProcessor.cs" Line="1" Column="1" />
+      <File FileName="Matrix/Program.cs" Line="63" Column="10" />
+      <File FileName="Matrix.Tests/UnitTest1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Matrix" expanded="True">
+            <Node name="Matrix" expanded="True" />
+            <Node name="Matrix.Tests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
