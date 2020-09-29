@@ -9,15 +9,19 @@ namespace Matrix
         static void Main(string[] args)
         {
             var matrix = new List<List<int>>();
-            var l1 = new List<int> { 1, 2, 3, 4 };
-            var l2 = new List<int> { 3, 5, 5, 6 };
-            var l3 = new List<int> { -1, -2, 3, 7 };
-            var l4 = new List<int> { -1, -2, -10, 7 };
+            var l1 = new List<int> { 1, 2, 3, 4, 5, 9 };
+            var l2 = new List<int> { 3, 5, 5, 6, -3, -5 };
+            var l3 = new List<int> { -1, -2, 3, 7, 6, 10 };
+            var l4 = new List<int> { 6, -2, 10, 7, -3, -5 };
+            var l5 = new List<int> { 2, 2, -30, 7, 12, 83 };
+            var l6 = new List<int> { -1, -3, -40, 7, -100, -40 };
 
             matrix.Add(l1);
             matrix.Add(l2);
             matrix.Add(l3);
             matrix.Add(l4);
+            matrix.Add(l5);
+            matrix.Add(l6);
 
             try
             {
@@ -31,36 +35,11 @@ namespace Matrix
             }
         }
 
-        public static List<int> GetNegativeNumbers(List<List<int>> matrix)
-        {
-            var negativeNums = new List<int>();
-
-            for (int i = 1; i < matrix.Count; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    var item = matrix[i][matrix.Count - 1 - j];
-
-                    if (item < 0)
-                    {
-                        negativeNums.Add(item);
-                    }
-                }
-            }
-
-            return negativeNums;
-        }
-
         private static void OutputResult(List<int> negativeNums)
         {
-            Console.Write("Negative numbers under matrix diagonal: ");
-            foreach (var num in negativeNums)
-            {
-                Console.Write($"{num} ");
-            }
-            Console.WriteLine($"\nSum: {negativeNums.Sum()}");
+            Console.WriteLine($"Negative numbers count: {negativeNums.Count()}");
+            Console.WriteLine($"Sum: {negativeNums.Sum()}");
             Console.WriteLine($"Average: {negativeNums.Average()}");
         }
-
     }
 }

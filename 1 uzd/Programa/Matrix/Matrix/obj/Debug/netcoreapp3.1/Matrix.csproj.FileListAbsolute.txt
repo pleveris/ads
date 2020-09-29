@@ -1,13 +1,25 @@
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.exe
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.deps.json
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.runtimeconfig.json
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.runtimeconfig.dev.json
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.dll
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\bin\Debug\netcoreapp3.1\Matrix.pdb
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.csprojAssemblyReference.cache
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.AssemblyInfoInputs.cache
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.AssemblyInfo.cs
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.csproj.CoreCompileInputs.cache
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.dll
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.pdb
-C:\Users\pauli\Documents\vgtu\ads\Matrix\Matrix\Matrix\obj\Debug\netcoreapp3.1\Matrix.genruntimeconfig.cache
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.exe
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.deps.json
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.runtimeconfig.json
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.runtimeconfig.dev.json
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.dll
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.pdb
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.csprojAssemblyReference.cache
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.AssemblyInfoInputs.cache
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.AssemblyInfo.cs
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.csproj.CoreCompileInputs.cache
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.dll
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.pdb
+C:/Users/pauli/Documents/vgtu/ads/Matrix/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.genruntimeconfig.cache
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.deps.json
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.runtimeconfig.json
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.runtimeconfig.dev.json
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.dll
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/bin/Debug/netcoreapp3.1/Matrix.pdb
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.csprojAssemblyReference.cache
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.AssemblyInfoInputs.cache
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.AssemblyInfo.cs
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.csproj.CoreCompileInputs.cache
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.dll
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.pdb
+/Users/dovydastomasiunas/Documents/workspace/uni/ads/1 uzd/Programa/Matrix/Matrix/obj/Debug/netcoreapp3.1/Matrix.genruntimeconfig.cache
