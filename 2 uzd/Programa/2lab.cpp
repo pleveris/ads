@@ -62,44 +62,20 @@ public:
         }
     }
 
-    void outputQueueToScreen()
+    void outputQueue(ostream &output)
     {
         int i;
         if (isEmpty())
         {
-            cout << endl
-                 << "Queue is Empty, nothing to output!" << endl;
+            output << endl
+                   << "Queue is Empty, nothing to output!" << endl;
         }
         else
         {
-            //            cout << endl << "start = " << start;
-            cout << endl
-                 << "Elements in the Queue: " << endl;
+            output << endl
+                   << "Elements in the Queue: " << endl;
             for (i = start; i <= end; i++)
-                cout << "Dec: " << arr[i].initial << " -> Bin: " << arr[i].converted << endl;
-            //            cout << endl << "end = " << end << endl;
-        }
-    }
-
-    void outputQueueToFile()
-    {
-        int i;
-        string fln = "result.txt";
-        ofstream out(fln);
-        if (isEmpty())
-        {
-            out << endl
-                << "Queue is Empty, nothing to output!" << endl;
-        }
-        else
-        {
-            //            cout << endl << "start = " << start;
-            out << endl
-                << "Elements in the Queue: " << endl;
-            for (i = start; i <= end; i++)
-                out << "Dec: " << arr[i].initial << " -> Bin: " << arr[i].converted << endl;
-            out.close();
-            cout << "Result written in: " << fln << endl;
+                output << "Dec: " << arr[i].initial << " -> Bin: " << arr[i].converted << endl;
         }
     }
 };
@@ -166,15 +142,19 @@ int main()
 
             cout << endl
                  << "Results: " << endl;
-            q.outputQueueToScreen();
+            q.outputQueue(cout);
             cout << endl;
         }
         else if (choice == 2)
-            q.outputQueueToFile();
+        {
+            string fln = "result.txt";
+            ofstream out(fln);
+            q.outputQueue(out);
+        }
         else if (choice == 3)
         {
             q.deQueue();
-            q.outputQueueToScreen();
+            q.outputQueue(cout);
         }
 
         else
