@@ -7,20 +7,25 @@
 #include <algorithm>
 using namespace std;
 
+struct ConvertedValue
+{
+    double initial;
+    string converted;
+};
+
 class Queue
 {
 private:
     int size = 0;
     int capacity = 10;
-    double *decNums;
-    vector<string> binNums;
+    ConvertedValue *arr;
     int start = 0;
     int end = -1;
 
 public:
     Queue()
     {
-        decNums = new double[capacity];
+        arr = new ConvertedValue[capacity];
     }
     bool isEmpty()
     {
@@ -30,7 +35,7 @@ public:
             return false;
     }
 
-    void enQueue_num(double value)
+    void enQueue(ConvertedValue value)
     {
         if (capacity == size)
         {
@@ -38,31 +43,22 @@ public:
             return;
         }
         end++;
-        decNums[end] = value;
+        arr[end] = value;
         size++;
     }
-
-    void enQueue_bin(string value)
+    ConvertedValue deQueue()
     {
-        //        if(start == -1) start = 0;
-        //        end++;
-        binNums.push_back(value);
-        //        cout << value << " has been added to the queue";
-    }
-
-    void deQueue()
-    {
-        string value;
         if (isEmpty())
         {
             cout << "Queue is empty!!" << endl;
         }
         else
         {
+            ConvertedValue value;
+            value = arr[start];
             start++;
             size--;
-            //    cout << value << " has been deleted from the queue";
-            //    return(value);
+            return value;
         }
     }
 
@@ -80,7 +76,7 @@ public:
             cout << endl
                  << "Elements in the Queue: " << endl;
             for (i = start; i <= end; i++)
-                cout << "Dec: " << decNums[i] << " -> Bin: " << binNums[i] << endl;
+                cout << "Dec: " << arr[i].initial << " -> Bin: " << arr[i].converted << endl;
             //            cout << endl << "end = " << end << endl;
         }
     }
@@ -101,7 +97,7 @@ public:
             out << endl
                 << "Elements in the Queue: " << endl;
             for (i = start; i <= end; i++)
-                out << "Dec: " << decNums[i] << " -> Bin: " << binNums[i] << endl;
+                out << "Dec: " << arr[i].initial << " -> Bin: " << arr[i].converted << endl;
             out.close();
             cout << "Result written in: " << fln << endl;
         }
@@ -162,8 +158,10 @@ int main()
             cout << endl
                  << "How many numbers would you like to see after the decimal separator?     ";
             cin >> pl;
-            q.enQueue_num(n);
-            q.enQueue_bin(decToBin(n, pl));
+            ConvertedValue conversion;
+            conversion.initial = n;
+            conversion.converted = decToBin(n, pl);
+            q.enQueue(conversion);
             cout << n << " has been successfully converted to a binary representation and put to the queue." << endl;
 
             cout << endl
