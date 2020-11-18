@@ -10,20 +10,21 @@ using namespace std;
 class Queue
 {
 private:
-    vector<double> decNums;
+    int size = 0;
+    int capacity = 10;
+    double *decNums;
     vector<string> binNums;
-    int start, end;
+    int start = 0;
+    int end = -1;
 
 public:
     Queue()
     {
-        start = -1;
-        end = -1;
+        decNums = new double[capacity];
     }
-
     bool isEmpty()
     {
-        if (start == -1)
+        if (size == 0)
             return true;
         else
             return false;
@@ -31,11 +32,14 @@ public:
 
     void enQueue_num(double value)
     {
-        if (start == -1)
-            start = 0;
+        if (capacity == size)
+        {
+            cout << "Queue is full";
+            return;
+        }
         end++;
-        decNums.push_back(value);
-        //        cout << value << " has been added to the queue";
+        decNums[end] = value;
+        size++;
     }
 
     void enQueue_bin(string value)
@@ -55,18 +59,10 @@ public:
         }
         else
         {
-            value = binNums[start];
-            if (start >= end)
-            {
-                start = -1;
-                end = -1;
-            }
-            else
-            {
-                start++;
-            }
-            //            cout << value << " has been deleted from the queue";
-            //            return(value);
+            start++;
+            size--;
+            //    cout << value << " has been deleted from the queue";
+            //    return(value);
         }
     }
 
