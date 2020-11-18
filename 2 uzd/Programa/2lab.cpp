@@ -51,15 +51,14 @@ public:
         if (isEmpty())
         {
             cout << "Queue is empty!!" << endl;
+            ConvertedValue empty;
+            return empty;
         }
-        else
-        {
-            ConvertedValue value;
-            value = arr[start];
-            start++;
-            size--;
-            return value;
-        }
+        ConvertedValue value;
+        value = arr[start];
+        start++;
+        size--;
+        return value;
     }
 
     void outputQueue(ostream &output)
